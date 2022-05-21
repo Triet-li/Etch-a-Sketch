@@ -1,0 +1,30 @@
+:root {
+    --gridColumn: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.CC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;   /*minimum height = screen height*/
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: repeat(var(--gridColumn),1fr);
+    width: 700px;
+    height: 600px;
+    border: 2px solid black;
+   
+    
+}
+
+#gridContainer > div {
+    padding: 1px;
+    border: 1px solid black;
+}
