@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+  
+}
+
+.cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 728px;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+}
