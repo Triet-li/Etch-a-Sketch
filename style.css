@@ -1,4 +1,6 @@
-
+.content {
+    display: flex;
+}
 body {
     margin: 0;
     height: 100vh;
@@ -9,17 +11,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 9;
 }
 
 .container {
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
-    width: 728px;
-    height: 500px;
+    width: 960px;
+    height: 659px;
 }
 
 h1 {
     text-align: center;
     color: pink;
+}
+
+.bg {
+    background-color: pink;
+}
+
+.change-grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    flex-grow: 2;
+    gap: 10px;
+}
+
+.clearButton {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
 }
